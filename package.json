@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_f1",
+  "version": "1.0.0",
+  "description": "API y web MVC para Desafío F1",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "f1",
+    "mvc",
+    "express",
+    "mongoose"
+  ],
+  "author": "miloDev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
